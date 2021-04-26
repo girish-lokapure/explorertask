@@ -17,64 +17,50 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. Code: Clone the project from : https://github.com/girish-lokapure/explorertask
 
-3. Import Mysql dump from 
+3. Mysql dump from https://github.com/girish-lokapure/explorertask/blob/master/dumps/mysql-dump.sql
+
 ```
 git clone https://github.com/girish-lokapure/explorertask.git
 ```
-
 ### Installing
+1. Start the Docker containers in the background, you may start Sail in "detached" mode:
+```
+./vendor/bin/sail up -d
+```
+2. Import the database dump
 
+3. via Postman or browser try to access the following urls
+
+```
+/api/explorer
+```
+```
+/api/explorer?client_id[]=1&client_id[]=2
+```
+```
+/api/explorer?cost_type_id[]=1&cost_type_id[]=10
+```
+```
+/api//explorer?cost_type_id[]=7&project_id[]=32&project_id[]=16
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+1 . Access the running docker sail container by running docker exec.
 ```
-Give an example
+docker exec -it <container id of sail> /bin/bash
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
+2. Within the container run the following to do the tests
 ```
-Give an example
+./vendor/bin/phpunit
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [laravel](https://laravel.com/) - The web framework used
+* [Mysql](https://www.mysql.com/) - Database
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Girish Lokapure** - *Initial work* 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
