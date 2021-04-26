@@ -11,6 +11,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
@@ -130,13 +131,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.ExplorerController.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="ExplorerController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/ExplorerController.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.ExplorerController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,11 +156,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619089700045</updated>
-      <workItem from="1619089701102" duration="2167000" />
+      <workItem from="1619089701102" duration="73461000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="633" y="176" width="700" height="752" key="#PHP" timestamp="1619165662285">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="633" y="176" width="700" height="752" key="#PHP/67.27.1853.1053@67.27.1853.1053" timestamp="1619165662285" />
+    <state x="451" y="210" width="1084" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619264258154">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" width="1084" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1619264258154" />
+    <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619096690564">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1619096690564" />
+    <state x="781" y="326" width="414" height="453" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1619283975130">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="781" y="326" width="414" height="453" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/67.27.1853.1053@67.27.1853.1053" timestamp="1619283975130" />
+    <state x="781" y="258" width="414" height="588" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1619280486841">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="781" y="258" width="414" height="588" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/67.27.1853.1053@67.27.1853.1053" timestamp="1619280486841" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1619264240015">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1619264240015" />
+    <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1619201244250">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1619201244250" />
+    <state x="473" y="140" width="1031" height="824" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619284237772">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="473" y="140" width="1031" height="824" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1619284237772" />
   </component>
 </project>
